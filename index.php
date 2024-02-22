@@ -19,7 +19,7 @@
 </header>
 <article>
     <section>
-        <?php print "Hello World" ?>
+        <h1>Welcome to CyberClub</h1>
     </section>
 </article>
 
