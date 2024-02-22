@@ -19,12 +19,8 @@
 </header>
 <article>
     <section>
-<<<<<<< Updated upstream
-        <?php print "Hello World" ?>
-=======
         <h1>Welcome to CyberClub</h1>
         <h2>Trakia Uni CyberClub</h2>
->>>>>>> Stashed changes
     </section>
 </article>
 
