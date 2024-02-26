@@ -1,3 +1,95 @@
 body{
-    background-color: rgb(89, 197, 152);
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    background-color: rgb(193, 207, 203)
+}
+
+ul{
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 20px 60px 20px 20px;
+}
+
+.nav-btns{
+    display: flex;
+    gap: 40px;
+}
+
+.nav-btns a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    
+}
+
+.nav-btns a li{
+    padding: 10px 30px 10px 30px;
+}
+
+.nav-btns a :hover{
+    background-color: rgb(171, 175, 175);
+}
+
+.logo-img img{
+    width: 80px;
+    height: auto;
+}
+
+
+.about-art{
+    margin: 2em;
+    text-align: center;
+    font-size: 2em;
+}
+
+
+
+.welcome-msg h1{
+     text-align: center;
+     margin: 2em;
+     font-size: 4em;
+}
+
+.act{
+    display: flex;
+    margin: 2em;
+}
+
+.act .act-text{
+    margin: 20px;
+    text-align: center;
+}
+
+.act .act-text a, .join-btn a{
+    text-decoration: none;
+    color: white;
+    background-color:  rgb(171, 175, 175);
+    padding: 1em 2em;
+    border-radius: 5%;
+}
+
+.join-btn{
+    margin: 2em;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+
+.join-club-btn{
+    text-align: center;
+     margin: 2em;
+     font-size: 4em;
+}
+
+.join-club-btn a{
+    text-decoration: none;
+    color: white;
+    background-color:  rgb(171, 175, 175);
+    padding: 0.3em 0.8em;
+    border-radius: 5%;
 }
