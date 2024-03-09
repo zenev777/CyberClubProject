@@ -13,9 +13,11 @@
         <nav>
             <ul>
                 <div class="logo-img">
-                    <a href="">
-                        <li><img src="images/TRU.png" alt=""></li>
-                    </a>
+
+                <a href="">
+                    <li><img src="images/TRU-vector.png" alt=""></li>
+                </a>
+
                 </div>
 
                 <div class="nav-btns">
