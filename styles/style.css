@@ -1,5 +1,6 @@
 *{
     color: white;
+    position: fixed;
 }
 body{
     padding: 0px;
@@ -64,6 +65,19 @@ ul{
      margin: 2em;
      font-size: 4em;
 }
+
+.vid{
+    display: flex;
+    justify-content: center;
+}
+
+
+#myVideo {
+    object-fit: cover;
+}
+
+
+
 
 .act{
     display: flex;
