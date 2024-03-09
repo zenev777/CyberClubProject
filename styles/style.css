@@ -9,7 +9,7 @@ body{
 
 header{
     /* background-color: #1C2961;  */
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(77,15,102,1) 52%, rgba(16,8,79,1) 100%);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgb(65,41,110) 52%, rgb(9, 3, 56) 100%);
 
     padding: 0;
 }
@@ -19,7 +19,7 @@ header{
 }  */
 
 h1,h2,h3{
-    color: orange;
+    color: w;
 }
 ul{
     margin: 0px;
