@@ -19,13 +19,13 @@
                 </div>
                 
                 <div class="nav-btns">
-                <a href="">
+                <a href="index.php">
                     <li>Home</li>
                 </a>
                 <a href="">
                     <li>FAQ</li>
                 </a>
-                <a href="">
+                <a href="contact.php">
                     <li>Contacts</li>
                 </a>
                 </div>
