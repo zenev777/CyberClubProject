@@ -25,7 +25,7 @@
                 <a href="FAQ.php">
                     <li>FAQ</li>
                 </a>
-                <a href="">
+                <a href="contact.php">
                     <li>Contacts</li>
                 </a>
                 </div>
