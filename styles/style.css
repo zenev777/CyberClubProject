@@ -7,27 +7,19 @@ body{
     background-color: rgb(0, 0, 0);
 }
 
+/* header background coloring*/
 header{
-    /* background-color: #1C2961;  */
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgb(65,41,110) 52%, rgb(9, 3, 56) 100%);
-
     padding: 0;
 }
 
-/* li {
-    
-}  */
-
-h1,h2,h3{
-    color: w;
-}
 ul{
     margin: 0px;
     display: flex;
     justify-content: space-between;
     list-style: none;
-    /* padding: 20px 60px 20px 20px; */
     padding: 0;
+    /* padding: 20px 60px 20px 20px; */
 }
 
 .nav-btns{
@@ -64,24 +56,21 @@ ul{
     font-size: 2em;
 }
 
+/* welcome title */
 .welcome-msg h1{
-     text-align: center;
-     margin: 2em;
-     font-size: 4em;
+    text-align: center;
+    margin: 2em;
+    font-size: 4em;
 }
 
+/* background: -webkit-linear-gradient(#b55b00, #b8a088); */
 .welcome-msg{
-    background: -webkit-linear-gradient(#b55b00, #b8a088);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(#b55b00, #dfe23a);
+    /* -webkit-background-clip: text; */
+    -webkit-text-fill-color: transparent;
 }
-/* .vid{
-    display: flex;
-    justify-content: center;
-    width: min-content;
-} */
 
-
+/* background video */
 #myVideo {
     position: fixed;
     right: 0;
@@ -91,9 +80,6 @@ ul{
     z-index: -5;
     opacity: 50%;
 }
-
-
-
 
 .act{
     display: flex;
@@ -122,8 +108,8 @@ ul{
 
 .join-club-btn{
     text-align: center;
-     margin: 2em;
-     font-size: 4em;
+    margin: 2em;
+    font-size: 4em;
 }
 
 .join-club-btn a{
