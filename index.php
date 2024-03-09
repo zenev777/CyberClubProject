@@ -19,10 +19,10 @@
                 </div>
                 
                 <div class="nav-btns">
-                <a href="index.php">
+                <a href="">
                     <li>Home</li>
                 </a>
-                <a href="">
+                <a href="FAQ.php">
                     <li>FAQ</li>
                 </a>
                 <a href="contact.php">

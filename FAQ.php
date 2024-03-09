@@ -22,7 +22,7 @@
                 <a href="index.php">
                     <li>Home</li>
                 </a>
-                <a href="FAQ.php">
+                <a href="">
                     <li>FAQ</li>
                 </a>
                 <a href="contact.php">
