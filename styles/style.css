@@ -9,10 +9,12 @@ body{
 
 header{
     background-color: #1C2961;
+    padding: 0;
 }
+
 /* li {
-    color: #ffffff;
-} */
+    
+}  */
 
 h1,h2,h3{
     color: orange;
@@ -22,12 +24,14 @@ ul{
     display: flex;
     justify-content: space-between;
     list-style: none;
-    padding: 20px 60px 20px 20px;
+    /* padding: 20px 60px 20px 20px; */
+    padding: 0;
 }
 
 .nav-btns{
     display: flex;
     gap: 40px;
+    padding-right: 10px;
 }
 
 .nav-btns a{
@@ -48,6 +52,9 @@ ul{
 .logo-img img{
     width: 80px;
     height: auto;
+    margin-left: 20px;
+    zoom: 1.5;
+    padding: 0;
 }
 
 .about-art{
