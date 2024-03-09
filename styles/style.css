@@ -10,8 +10,12 @@ body{
 header{
     background-color: #1C2961;
 }
-li {
+/* li {
     color: #ffffff;
+} */
+
+h1,h2,h3{
+    color: orange;
 }
 ul{
     margin: 0px;
