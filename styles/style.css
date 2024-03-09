@@ -70,7 +70,11 @@ ul{
      font-size: 4em;
 }
 
-
+.welcome-msg{
+    background: -webkit-linear-gradient(#b55b00, #b8a088);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
 /* .vid{
     display: flex;
     justify-content: center;
