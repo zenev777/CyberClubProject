@@ -1,12 +1,18 @@
+*{
+    color: white;
+}
 body{
     padding: 0px;
     margin: 0px;
+    background-color: rgb(99, 95, 224);
 }
 
 header{
-    background-color: rgb(193, 207, 203)
+    background-color: #1C2961;
 }
-
+li {
+    color: #ffffff;
+}
 ul{
     margin: 0px;
     display: flex;
@@ -32,7 +38,7 @@ ul{
 }
 
 .nav-btns a :hover{
-    background-color: rgb(171, 175, 175);
+    background-color: #131E3A;
 }
 
 .logo-img img{
