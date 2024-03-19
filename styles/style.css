@@ -157,7 +157,7 @@ ul{
     padding-right: 30px;
     padding-bottom: 0px;
     padding-left: 30px;
-  }
+}
   
 .team-main h3,h2{
     margin-top: 0px;
@@ -165,7 +165,7 @@ ul{
     margin-bottom: 0px;
     margin-left: 0px;
     line-height: 25px;
-  }
+}
   
 .div-main {
     min-height: 75px;
@@ -214,6 +214,7 @@ ul{
     margin-right: 10px;
     margin-bottom: 25px;
     margin-left: 10px;
+    border: 2px solid white;
 }
   
 .team {

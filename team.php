@@ -40,12 +40,6 @@
     </header>
     <section class="home-page">
 
-        <article class="welcome-msg">
-
-            <h1>Welcome to CyberClub</h1>
-
-        </article>
-
         <main class="team-main">
         <div class="div-main">
         <h2>Meet Our Team</h2>
