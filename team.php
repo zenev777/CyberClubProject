@@ -53,43 +53,48 @@
         </article>
 
         <main class="team-main">
-        <article>
-            <section id="team">
-                <h2>Meet Our Team</h2>
-            
+        <div class="div-main">
+        <h2>Meet Our Team</h2>
+            <section class="team">
                 <div class="width-wrapper">
                     <div class="team-card">
-                        <img src="" alt="">
+                        <div class="image-div"><img src="images/artic.jpg" alt=""></div>
                         <h3>First Name And Last Name</h3>
+                        <p>More text</p>
                     </div>
 
                     <div class="team-card">
-                        <img src="" alt="">
+                    <div class="image-div"><img src="images/artic.jpg" alt=""></div>
                         <h3>First Name And Last Name</h3>
+                        <p>More text</p>
                     </div>
 
                     <div class="team-card">
-                        <img src="" alt="">
+                    <div class="image-div"><img src="images/artic.jpg" alt=""></div>
                         <h3>First Name And Last Name</h3>
+                        <p>More text</p>
                     </div>
 
                     <div class="team-card">
-                        <img src="" alt="">
+                    <div class="image-div"><img src="images/artic.jpg" alt=""></div>
                         <h3>First Name And Last Name</h3>
+                        <p>More text</p>
                     </div>
 
                     <div class="team-card">
-                        <img src="" alt="">
+                    <div class="image-div"><img src="images/artic.jpg" alt=""></div>
                         <h3>First Name And Last Name</h3>
+                        <p>More text</p>
                     </div>
 
                     <div class="team-card">
-                        <img src="" alt="">
+                    <div class="image-div"><img src="images/artic.jpg" alt=""></div>
                         <h3>First Name And Last Name</h3>
+                        <p>More text</p>
                     </div>
                 </div>
             </section>
-        </article>
+        </div>
     </main>
 
     </section>
