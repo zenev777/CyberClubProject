@@ -39,14 +39,17 @@
         </nav>
     </header>
 
-    <section class="home-page">
+    <div class="event-card">
+        <a href="details.html">
+            <span class="event-date">FEB<br>21</span>
+            <img src="images/artic.jpg" alt="event-image" class="event-img">
+            <h4 class="event-title">Отвъд логиката: Емоционална интелигентност за вземане на решения, които водят до успех</h4>
+            <p>Feb 21, 2024</p>
+        </a>
+    </div>
 
-        <article class="welcome-msg">
 
-            <h1>Welcome to CyberClub</h1>
 
-        </article>
-    </section>
 </body>
 
 </html>
