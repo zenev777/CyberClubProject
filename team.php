@@ -51,6 +51,47 @@
             <h1>Welcome to CyberClub</h1>
 
         </article>
+
+        <main class="team-main">
+        <article>
+            <section id="team">
+                <h2>Meet Our Team</h2>
+            
+                <div class="width-wrapper">
+                    <div class="team-card">
+                        <img src="" alt="">
+                        <h3>First Name And Last Name</h3>
+                    </div>
+
+                    <div class="team-card">
+                        <img src="" alt="">
+                        <h3>First Name And Last Name</h3>
+                    </div>
+
+                    <div class="team-card">
+                        <img src="" alt="">
+                        <h3>First Name And Last Name</h3>
+                    </div>
+
+                    <div class="team-card">
+                        <img src="" alt="">
+                        <h3>First Name And Last Name</h3>
+                    </div>
+
+                    <div class="team-card">
+                        <img src="" alt="">
+                        <h3>First Name And Last Name</h3>
+                    </div>
+
+                    <div class="team-card">
+                        <img src="" alt="">
+                        <h3>First Name And Last Name</h3>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </main>
+
     </section>
 </body>
 
