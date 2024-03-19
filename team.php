@@ -38,12 +38,6 @@
             </ul>
         </nav>
     </header>
-    <div class="vid">
-        <video autoplay muted loop id="myVideo">
-            <source src="images/vid.mp4" type="video/mp4">
-        </video>
-    </div>
-
     <section class="home-page">
 
         <article class="welcome-msg">
