@@ -78,6 +78,32 @@
             </div>
         </article>
     </section>
+
+    
+    <!-- Footer -->
+    <div class="site-footer">
+        <footer>
+            <div class="logo-img">
+                <a href="">
+                    <li><img src="images/TRU-vector.png" alt=""></li>
+                </a>
+            </div>
+
+            <div></div>
+
+            <div class="footer-contacts">
+                <h2>Contacts</h2>
+                <h4>E-mail:</h4>
+                <p>example@mail.bg</p>
+                <h4>Phone:</h4>
+                <p>0888832823</p>
+                <h4>Address:</h4>
+                <p>caasdasdsadasdaasdasdasd</p>
+            </div>
+        </footer>
+    </div>
+
+    
 </body>
 
 </html>
