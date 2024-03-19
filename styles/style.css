@@ -149,21 +149,12 @@ ul{
 .team-main {
     min-height: 75px;
     max-width: 1380px;
-    margin-top: 60px;
-    margin-right: auto;
-    margin-bottom: 60px;
-    margin-left: auto;
-    padding-top: 0px;
-    padding-right: 30px;
-    padding-bottom: 0px;
-    padding-left: 30px;
+    margin: 60px auto 60px auto;
+    padding: 0px 30px 0px 30px;
 }
   
 .team-main h3,h2{
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
+    margin: 0px; 
     line-height: 25px;
 }
   
@@ -173,10 +164,7 @@ ul{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 0px;
-    margin-right: auto;
-    margin-bottom: 0px;
-    margin-left: auto;
+    margin: 0px auto 0px auto;
     justify-content: space-evenly;
 }
 
@@ -193,10 +181,7 @@ ul{
     text-align: center;
     line-height: 50px;
     width: 100%;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 50px;
-    margin-left: 0px;
+    margin: 0px 0px 50px;
 }
   
 .team-card {
@@ -205,32 +190,20 @@ ul{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 30px;
-    padding-right: 25px;
-    padding-bottom: 30px;
-    padding-left: 25px;
+    padding: 30px 25px 15px 25px;
     width: 280px;
-    margin-top: 0px;
-    margin-right: 10px;
-    margin-bottom: 25px;
-    margin-left: 10px;
+    margin: 0px 10px 25px 10px;
     border: 2px solid white;
 }
   
 .team {
-    margin-top: 20px;
-    margin-right: 0px;
-    margin-bottom: 5px;
-    margin-left: 0px;
+    margin: 20px 0px 5px 0px;
     font-size: 18px;
     font-weight: 800;
 }
   
 .team-card p{
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 20px;
-    margin-left: 0px;
+    margin-top: 0px 0px 20px;
     color: rgb(122, 122, 122);
     line-height: 30px;
 }
