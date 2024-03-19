@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>site</title>
 </head>
 
@@ -35,16 +37,14 @@
                         
                     </a>
                 </div>
-                <!-- User Icon -->
                 <div class="user">
                     <ul class="user-icon">
-                    <!-- <i class="fa-solid fa-user"></i> -->
-                        <li><a href="#" class="icn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"/></svg></a>
+                    
+                        <li><a href="#" class="icn"><i class="fa-solid fa-user icon-img"></i></a>
                             <ul>
-                                <li><a href="create.html">Create</a></li>
-                                <li><a href="questions.html">FAQ</a></li>
-                                <li><a href="favourites.html">My Favourites</a></li>
-                                <li><a href="404.html">Logout</a></li>
+                                <li><a href="#">Create</a></li>
+                                <li><a href="#">My Events</a></li>
+                                <li><a href="#">Logout</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -86,7 +86,7 @@
             </div>
         </article>
         <article class="join-club-btn">
-                <h4>Join out club</h4>
+                <h4>Join our club</h4>
                 <a href="#">JOIN</a>
         </article>
     </section>

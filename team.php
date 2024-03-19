@@ -34,7 +34,18 @@
                         <li>Contacts</li>
                     </a>
                 </div>
-
+                <div class="user">
+                    <ul class="user-icon">
+                    
+                        <li><a href="#" class="icn"><i class="fa-solid fa-user icon-img"></i></a>
+                            <ul>
+                                <li><a href="#">Create</a></li>
+                                <li><a href="#">My Events</a></li>
+                                <li><a href="#">Logout</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
             </ul>
         </nav>
     </header>
