@@ -21,11 +21,14 @@
                 </div>
 
                 <div class="nav-btns">
-                    <a href="">
+                    <a href="index.php">
                         <li>Home</li>
                     </a>
-                    <a href="FAQ.php">
-                        <li>FAQ</li>
+                    <a href="event.php">
+                        <li>Events</li>
+                    </a>
+                    <a href="team.php">
+                        <li>Team</li>
                     </a>
                     <a href="contact.php">
                         <li>Contacts</li>
@@ -35,11 +38,6 @@
             </ul>
         </nav>
     </header>
-    <div class="vid">
-        <video autoplay muted loop id="myVideo">
-            <source src="images/vid.mp4" type="video/mp4">
-        </video>
-    </div>
 
     <section class="home-page">
 

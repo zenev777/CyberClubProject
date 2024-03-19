@@ -22,8 +22,11 @@
                     <a href="index.php">
                         <li>Home</li>
                     </a>
-                    <a href="FAQ.php">
-                        <li>FAQ</li>
+                    <a href="event.php">
+                        <li>Events</li>
+                    </a>
+                    <a href="team.php">
+                        <li>Team</li>
                     </a>
                     <a href="contact.php">
                         <li>Contacts</li>

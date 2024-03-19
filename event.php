@@ -13,11 +13,13 @@
         <nav>
             <ul>
                 <div class="logo-img">
+
                 <a href="">
                     <li><img src="images/TRU-vector.png" alt=""></li>
                 </a>
+
                 </div>
-                
+
                 <div class="nav-btns">
                     <a href="index.php">
                         <li>Home</li>
@@ -32,16 +34,22 @@
                         <li>Contacts</li>
                     </a>
                 </div>
-                
+
             </ul>
         </nav>
     </header>
 
-    <section class="home-page">
-        <article class="welcome-msg">
-            <h1>Welcome to CyberClub</h1>
-        </article>
-    </section>
+    <div class="event-card">
+        <a href="details.html">
+            <span class="event-date">FEB<br>21</span>
+            <img src="images/artic.jpg" alt="event-image" class="event-img">
+            <h4 class="event-title">Отвъд логиката: Емоционална интелигентност за вземане на решения, които водят до успех</h4>
+            <p>Feb 21, 2024</p>
+        </a>
+    </div>
+
+
+
 </body>
 
 </html>
