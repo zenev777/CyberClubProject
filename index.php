@@ -81,15 +81,27 @@
 
     
     <!-- Footer -->
-    <div class="site-footer">
-        <footer>
+    <footer>
+        <div class="site-footer">
             <div class="logo-img">
-                <a href="">
-                    <li><img src="images/TRU-vector.png" alt=""></li>
-                </a>
+                <img src="images/TRU-vector.png" alt="">              
             </div>
 
-            <div></div>
+            <div class="footer-btns">
+                <h2>Quick Links</h2>
+                <a href="index.php">
+                    <p>Home</p>
+                </a>
+                <a href="event.php">
+                    <p>Events</p>
+                </a>
+                <a href="team.php">
+                    <p>Team</p>
+                </a>
+                <a href="contact.php">
+                    <p>Contacts</p>
+                </a>
+            </div>
 
             <div class="footer-contacts">
                 <h2>Contacts</h2>
@@ -100,10 +112,13 @@
                 <h4>Address:</h4>
                 <p>caasdasdsadasdaasdasdasd</p>
             </div>
-        </footer>
-    </div>
+        </div>
+        
+		<div class="copy-right-sec">
+            <p>&copy; 2024 All rights reserved.</p>
+		</div>
+    </footer>
 
-    
 </body>
 
 </html>

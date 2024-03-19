@@ -322,3 +322,38 @@ textarea:active {
     max-width: 100%;
 
 }
+
+/* Footer */
+
+.site-footer{
+    display: flex;
+    justify-content: space-around;
+    border-top: 5px solid white;
+}
+/* footer.footer-contacts h2,h4,p {
+    padding: 0%;
+    margin: 0%
+} */
+.footer-btns{
+    padding: 0 0 0 0;
+}
+.footer-btns a , h2{
+    text-decoration: none;
+    padding: 5px 2px 2px 2px;
+    margin-top: 5px;
+}
+.footer-btns p{
+    margin: 0px;
+    padding: 0px;
+}
+.footer-contacts h2, h4, p{
+    padding: 5px 5px 5px 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.copy-right-sec{
+    text-align: center;
+    background-color: #09011a;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
