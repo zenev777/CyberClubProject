@@ -58,9 +58,6 @@ ul {
 
 /* welcome title */
 .welcome-msg h1 {
-    background: -webkit-linear-gradient(#b55b00, #dfe23a);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     text-align: center;
     font-size: 4em;
     color: white;
@@ -143,9 +140,7 @@ ul {
 }
 
 .contact-form h2 {
-    background: -webkit-linear-gradient(#8707ff, #b359e7);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #e7d5fc;
     text-align: center;
     font-size: 3em;
     margin: 0.7em;
