@@ -178,9 +178,16 @@ ul{
     margin-bottom: 0px;
     margin-left: auto;
     justify-content: space-evenly;
-  }
-  
-  .team-main h2 {
+}
+
+.width-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6rem;
+    justify-content: center;
+}
+
+.team-main h2 {
     font-size: 48px;
     font-weight: 900;
     text-align: center;
@@ -190,9 +197,9 @@ ul{
     margin-right: 0px;
     margin-bottom: 50px;
     margin-left: 0px;
-  }
+}
   
-  .team-card {
+.team-card {
     text-align: center;
     box-shadow: rgb(65,41,110) 0px 4px 20px 7px;
     display: flex;
@@ -207,32 +214,32 @@ ul{
     margin-right: 10px;
     margin-bottom: 25px;
     margin-left: 10px;
-  }
+}
   
-  .team {
+.team {
     margin-top: 20px;
     margin-right: 0px;
     margin-bottom: 5px;
     margin-left: 0px;
     font-size: 18px;
     font-weight: 800;
-  }
+}
   
-  .team-card p{
+.team-card p{
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 20px;
     margin-left: 0px;
     color: rgb(122, 122, 122);
     line-height: 30px;
-  }
+}
   
-  .image-div {
+.image-div {
     clip-path: circle(50% at 50% 50%);
     width: 130px;
     height: 130px;
-  }
+}
   
-  .image-div img{
+.image-div img{
     max-width: 100%;
-  }
+}
