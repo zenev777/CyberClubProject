@@ -9,8 +9,8 @@ body {
 }
 
 /* header background coloring*/
-header{
-    border-bottom: 5px solid white; 
+header {
+    border-bottom: 5px solid white;
 }
 
 ul {
@@ -68,7 +68,7 @@ ul {
 .act {
     display: flex;
     margin: 2em;
-    gap:50px;
+    gap: 50px;
 }
 
 .act .act-text {
@@ -130,9 +130,9 @@ ul {
     border: 5px solid;
     border-radius: 15%;
     background: rgb(16, 2, 31);
-    box-shadow: -13px 9px 157px 31px rgba(135,7,255,0.39);
-    -webkit-box-shadow: -13px 9px 157px 31px rgba(135,7,255,0.39);
-    -moz-box-shadow: -13px 9px 157px 31px rgba(135,7,255,0.39);
+    box-shadow: -13px 9px 157px 31px rgba(135, 7, 255, 0.39);
+    -webkit-box-shadow: -13px 9px 157px 31px rgba(135, 7, 255, 0.39);
+    -moz-box-shadow: -13px 9px 157px 31px rgba(135, 7, 255, 0.39);
     border: #8707ff 2px solid;
 }
 
@@ -168,7 +168,8 @@ ul {
     margin-bottom: 1em;
 }
 
-.contact-inputs,textarea {
+.contact-inputs,
+textarea {
     color: #8707ff;
     border: 2px solid #8707ff;
     border-radius: 10px;
@@ -249,10 +250,14 @@ textarea:active {
     display: none;
 }
 
-.upload-btn{
+.upload-btn {
     align-self: center;
 
 }
+
+
+/* Team page -----------------> */
+
 
 .team-main {
     min-height: 75px;
@@ -260,12 +265,13 @@ textarea:active {
     margin: 60px auto 60px auto;
     padding: 0px 30px 0px 30px;
 }
-  
-.team-main h3,h2{
-    margin: 0px; 
+
+.team-main h3,
+h2 {
+    margin: 0px;
     line-height: 25px;
 }
-  
+
 .div-main {
     min-height: 75px;
     height: fit-content;
@@ -276,7 +282,7 @@ textarea:active {
     justify-content: space-evenly;
 }
 
-.width-wrapper{
+.width-wrapper {
     display: flex;
     flex-wrap: wrap;
     gap: 6rem;
@@ -291,10 +297,10 @@ textarea:active {
     width: 100%;
     margin: 0px 0px 50px;
 }
-  
+
 .team-card {
     text-align: center;
-    box-shadow: rgb(65,41,110) 0px 4px 20px 7px;
+    box-shadow: rgb(65, 41, 110) 0px 4px 20px 7px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -303,64 +309,163 @@ textarea:active {
     margin: 0px 10px 25px 10px;
     border: 2px solid white;
 }
-  
+
 .team {
     margin: 20px 0px 5px 0px;
     font-size: 18px;
     font-weight: 800;
 }
-  
-.team-card p{
+
+.team-card p {
     margin-top: 0px 0px 20px;
     color: rgb(122, 122, 122);
     line-height: 30px;
 }
-  
+
 .image-div {
     clip-path: circle(50% at 50% 50%);
     width: 130px;
     height: 130px;
 }
-  
-.image-div img{
+
+.image-div img {
     max-width: 100%;
 
 }
 
 /* Footer */
 
-.site-footer{
+.site-footer {
     display: flex;
     justify-content: space-around;
     border-top: 5px solid white;
 }
 
-.footer-btns{
+.footer-btns {
     padding: 0 0 0 0;
 }
-.footer-btns a , h2{
+
+.footer-btns a,
+h2 {
     text-decoration: none;
     padding: 5px 2px 2px 2px;
     margin-top: 5px;
 }
-.footer-btns p{
+
+.footer-btns p {
     margin: 0px;
     padding: 0px;
 }
-.footer-contacts h2, h4, p{
+
+.footer-contacts h2,
+h4,
+p {
     padding: 5px 5px 5px 5px;
     margin-top: 5px;
     margin-bottom: 5px;
 }
-.copy-right-sec{
+
+.copy-right-sec {
     text-align: center;
     background-color: #09011a;
     padding-top: 8px;
     padding-bottom: 8px;
 }
 
-.logo-img img{
+.logo-img img {
     width: 150px;
     height: auto;
     max-width: 100%;
+}
+
+
+/* Event page ----------------> */
+
+.event-heading h1{
+    font-size: 48px;
+    text-align: center;
+}
+
+.event-cards{
+    display: flex;
+    justify-content: center;
+    gap: 7em;
+    margin: 4em;
+}
+
+.card {
+    width: 300px;
+    padding: 10px;
+    background-image: linear-gradient(to right bottom, #5d0391, #7b05ae, #9b05cb, #bd00e7, #bd00e7);
+    background-size: 200% 200%;
+    border-radius: 12px;
+}
+
+.card-int {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    font-size: 14px;
+    border-radius: 6px;
+    background-color: rgb(17, 3, 39);
+}
+
+.img img {
+    width: 100%;
+    height: 175px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.card-data {
+    padding: 20px;
+    font-size: 14px;
+}
+
+.card__span {
+    font-size: 11px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: black;
+    background: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+button {
+    width: 100%;
+    margin-top: 15px;
+    background-image: linear-gradient(to right bottom, #5d0391, #7b05ae, #9b05cb, #bd00e7, #bd00e7);
+    background-size: 200% 200%;
+    border: none;
+    padding: 8px 10px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: transform 0.1s ease-in;
+}
+
+button:active {
+    transform: translateY(3px);
+}
+
+.card:hover,
+button:hover {
+    animation: gradient 0.8s ease-in 1;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 200% 200%;
     }
+
+    100% {
+        background-position: 400% 400%;
+    }
+}

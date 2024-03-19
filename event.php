@@ -14,9 +14,9 @@
             <ul>
                 <div class="logo-img">
 
-                <a href="">
-                    <li><img src="images/TRU-vector.png" alt=""></li>
-                </a>
+                    <a href="">
+                        <li><img src="images/TRU-vector.png" alt=""></li>
+                    </a>
 
                 </div>
 
@@ -38,21 +38,54 @@
             </ul>
         </nav>
     </header>
+    <section class="event-heading">
+        <h1>Events</h1>
+    </section>
+    <section class="event-cards">
+        <article class="card">
+            <div class="card-int">
+                <span class="card__span">Category</span>
+                <div class="img"><img src="images/Using-AI-in-cybersecutity.webp" alt=""></div>
+                <div class="card-data">
+                    <p class="title">This is a test title
+                    </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <button class="button">More info</button>
+                </div>
+            </div>
+        </article>
+        <article class="card">
+            <div class="card-int">
+                <span class="card__span">Category</span>
+                <div class="img"><img src="images/Using-AI-in-cybersecutity.webp" alt=""></div>
+                <div class="card-data">
+                    <p class="title">This is a test title
+                    </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <button class="button">More info</button>
+                </div>
+            </div>
+        </article>
+        <article class="card">
+            <div class="card-int">
+                <span class="card__span">Category</span>
+                <div class="img"><img src="images/Using-AI-in-cybersecutity.webp" alt=""></div>
+                <div class="card-data">
+                    <p class="title">This is a test title
+                    </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <button class="button">More info</button>
+                </div>
+            </div>
+        </article>
+    </section>
 
-    <div class="event-card">
-        <a href="details.html">
-            <span class="event-date">FEB<br>21</span>
-            <img src="images/artic.jpg" alt="event-image" class="event-img">
-            <h4 class="event-title">Отвъд логиката: Емоционална интелигентност за вземане на решения, които водят до успех</h4>
-            <p>Feb 21, 2024</p>
-        </a>
-    </div>
 
-<!-- Footer -->
-<footer>
+    <!-- Footer -->
+    <footer>
         <div class="site-footer">
             <div class="logo-img">
-                <img src="images/TRU-vector.png" alt="">              
+                <img src="images/TRU-vector.png" alt="">
             </div>
 
             <div class="footer-btns">
@@ -81,10 +114,10 @@
                 <p>caasdasdsadasdaasdasdasd</p>
             </div>
         </div>
-        
-		<div class="copy-right-sec">
+
+        <div class="copy-right-sec">
             <p>&copy; 2024 All rights reserved.</p>
-		</div>
+        </div>
     </footer>
 
 </body>
