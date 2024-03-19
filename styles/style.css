@@ -123,11 +123,11 @@ ul{
 .contact-form
 {
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .contact-form button{
-    display:flex;
-    align-items: center;
     padding: 15px 30px;
     font-size: 16px;
     color: #fff;
