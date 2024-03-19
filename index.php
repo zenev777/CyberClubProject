@@ -68,14 +68,12 @@
                 <div class="act-img"><img src="images/artic.jpg" alt=""></div>
             </div>
             <div class="join-btn">
-                <a href="#">View all events</a>
+                <a href="event.php">View all events</a>
             </div>
         </article>
         <article class="join-club-btn">
-            <div>
                 <h4>Join out club</h4>
                 <a href="#">JOIN</a>
-            </div>
         </article>
     </section>
 
