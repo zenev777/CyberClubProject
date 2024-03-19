@@ -145,6 +145,7 @@ ul{
     font-weight: 500;
     color: #666;
     border-radius: 50px;
+    text-align: center;
 }
 
 .contact-inputs textarea{
@@ -155,4 +156,8 @@ ul{
 
 .contact-inputs:focus{
     border: 2px solid rgb(65,41,110);
+}
+
+.contact-inputs::placeholder{
+    text-align: center;
 }
