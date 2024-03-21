@@ -24,16 +24,16 @@
 
                 <div class="nav-btns">
                     <a href="index.php">
-                        <li>Home</li>
+                        <li>Начало</li>
                     </a>
                     <a href="event.php">
-                        <li>Events</li>
+                        <li>Събития</li>
                     </a>
                     <a href="team.php">
-                        <li>Team</li>
+                        <li>Отборът ни</li>
                     </a>
                     <a href="contact.php">
-                        <li>Contacts</li>
+                        <li>Контакти</li>
                         
                     </a>
                 </div>
@@ -42,9 +42,9 @@
                     
                         <li><a href="#" class="icn"><i class="fa-solid fa-user icon-img"></i></a>
                             <ul>
-                                <li><a href="#">Create</a></li>
-                                <li><a href="#">My Events</a></li>
-                                <li><a href="#">Logout</a></li>
+                                <li><a href="#">Създай</a></li>
+                                <li><a href="#">Моите събития</a></li>
+                                <li><a href="#">Излез</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -57,37 +57,37 @@
 
         <article class="welcome-msg">
 
-            <h1>Welcome to CyberClub</h1>
+            <h1>Добре дошли в КиберКЛУБ</h1>
 
         </article>
         <article class="about-art">
-            <h3>About</h3>
+            <h3>За нас</h3>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda voluptate ipsam molestias! Soluta in ipsum laboriosam quia laborum tempora, a nihil ab harum, dolor cum sint sapiente voluptate esse delectus.</p>
         </article>
         <article class="activities-art">
             <div class="act">
                 <div class="act-img"><img src="images/artic.jpg" alt=""></div>
                 <div class="act-text">
-                    <h3>Activities</h3>
+                    <h3>Дейности</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, voluptatibus? Voluptatem ipsa, quae commodi aut natus earum odio. Voluptatum eveniet aliquid nam accusamus corrupti? Eum voluptate explicabo in facilis porro.</p>
-                    <a href="#">Join Event</a>
+                    <a href="#">Научи още</a>
                 </div>
             </div>
             <div class="act">
                 <div class="act-text">
-                    <h3>Activities</h3>
+                    <h3>Дейности</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, voluptatibus? Voluptatem ipsa, quae commodi aut natus earum odio. Voluptatum eveniet aliquid nam accusamus corrupti? Eum voluptate explicabo in facilis porro.</p>
-                    <a href="#">Join Event</a>
+                    <a href="#">Научи още</a>
                 </div>
                 <div class="act-img"><img src="images/artic.jpg" alt=""></div>
             </div>
             <div class="join-btn">
-                <a href="event.php">View all events</a>
+                <a href="event.php">Вижте всички събития</a>
             </div>
         </article>
         <article class="join-club-btn">
-                <h4>Join our club</h4>
-                <a href="#">JOIN</a>
+                <h4>Присъедини се в КиберКЛУБ</h4>
+                <a href="#">ПРИСЪЕДИНИ СЕ</a>
         </article>
     </section>
 
@@ -100,28 +100,28 @@
             </div>
 
             <div class="footer-btns">
-                <h2>Quick Links</h2>
+                <h2>Бърз достъп</h2>
                 <a href="index.php">
-                    <p>Home</p>
+                    <p>Начало</p>
                 </a>
                 <a href="event.php">
-                    <p>Events</p>
+                    <p>Събития</p>
                 </a>
                 <a href="team.php">
-                    <p>Team</p>
+                    <p>Отборът ни</p>
                 </a>
                 <a href="contact.php">
-                    <p>Contacts</p>
+                    <p>Контакти</p>
                 </a>
             </div>
 
             <div class="footer-contacts">
-                <h2>Contacts</h2>
+                <h2>Контакти</h2>
                 <h4>E-mail:</h4>
                 <p>example@mail.bg</p>
-                <h4>Phone:</h4>
+                <h4>Телефон:</h4>
                 <p>0888832823</p>
-                <h4>Address:</h4>
+                <h4>Адрес:</h4>
                 <p>caasdasdsadasdaasdasdasd</p>
             </div>
         </div>

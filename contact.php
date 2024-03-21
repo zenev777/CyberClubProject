@@ -20,16 +20,16 @@
 
                 <div class="nav-btns">
                     <a href="index.php">
-                        <li>Home</li>
+                        <li>Начало</li>
                     </a>
                     <a href="event.php">
-                        <li>Events</li>
+                        <li>Събития</li>
                     </a>
                     <a href="team.php">
-                        <li>Team</li>
+                        <li>Отборът ни</li>
                     </a>
                     <a href="contact.php">
-                        <li>Contacts</li>
+                        <li>Контакти</li>
                     </a>
                 </div>
                 <div class="user">
@@ -37,9 +37,9 @@
                     
                         <li><a href="#" class="icn"><i class="fa-solid fa-user icon-img"></i></a>
                             <ul>
-                                <li><a href="#">Create</a></li>
-                                <li><a href="#">My Events</a></li>
-                                <li><a href="#">Logout</a></li>
+                                <li><a href="#">Създай</a></li>
+                                <li><a href="#">Моите събития</a></li>
+                                <li><a href="#">Излез</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -89,36 +89,36 @@
         </article>
     </section>
 
-    <!-- Footer -->
-    <footer>
+     <!-- Footer -->
+     <footer>
         <div class="site-footer">
             <div class="logo-img">
                 <img src="images/TRU-vector.png" alt="">              
             </div>
 
             <div class="footer-btns">
-                <h2>Quick Links</h2>
+                <h2>Бърз достъп</h2>
                 <a href="index.php">
-                    <p>Home</p>
+                    <p>Начало</p>
                 </a>
                 <a href="event.php">
-                    <p>Events</p>
+                    <p>Събития</p>
                 </a>
                 <a href="team.php">
-                    <p>Team</p>
+                    <p>Отборът ни</p>
                 </a>
                 <a href="contact.php">
-                    <p>Contacts</p>
+                    <p>Контакти</p>
                 </a>
             </div>
 
             <div class="footer-contacts">
-                <h2>Contacts</h2>
+                <h2>Контакти</h2>
                 <h4>E-mail:</h4>
                 <p>example@mail.bg</p>
-                <h4>Phone:</h4>
+                <h4>Телефон:</h4>
                 <p>0888832823</p>
-                <h4>Address:</h4>
+                <h4>Адрес:</h4>
                 <p>caasdasdsadasdaasdasdasd</p>
             </div>
         </div>
