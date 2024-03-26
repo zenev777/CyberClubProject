@@ -51,7 +51,6 @@
     <section class="contact-section">
         <article class="contact-article">
             <h2 class="h1-contacts">Свържете се с нас</h2>
-            <h2>Контакти</h2>
             <div class=two-articles>
                 <article class="contact-form-article">
                     <form class="contact-form">

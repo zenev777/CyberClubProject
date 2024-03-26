@@ -39,6 +39,7 @@ ul {
 .nav-btns a li {
     padding: 10px 30px 10px 30px;
     font-size: 1.8em;
+    transition: background-color 2s ease;
 }
 
 .nav-btns a :hover {
@@ -62,7 +63,7 @@ ul {
 /* ---- User Icon ---- */
 .user {
     display: flex;
-    align-items: center;
+    align-items:center;
     margin-right: 6.6em;
 }  
 
@@ -83,8 +84,17 @@ ul {
     list-style: none inside;
 }
 
+.user-icon li a {
+    transition: color 1s ease;
+}
+
 .user-icon a:hover {
     color: rgb(16, 2, 31);
+}
+
+.user ul
+{
+    transition: display 1s ease;
 }
 
 .user ul ul {
@@ -112,6 +122,34 @@ ul {
     font-size: 1.5em;
     padding: 0.5em;
 } 
+
+.nav-btn-join
+{
+    margin: 1em;
+    font-size: 1em;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-btn-join a {
+    padding: 5px 10px;
+    font-size: 1.3em;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 2s ease;
+}
+
+.nav-btn-join a:hover {
+    background-color: rgb(16, 2, 31);
+}
 
 /* welcome title */
 .welcome-msg h1 {
@@ -266,7 +304,8 @@ ul {
     border-bottom:solid white 3px; /* using border rather than underline; it's easier that way */
     width:500px; /*however long you want the underline */
     display:block; /* this is required for the width parameter to work */
-    padding-top: 0.4em;
+    margin-top: 0.4em;
+    box-shadow: -13px 9px 157px 31px rgba(135, 7, 255, 0.39);
 }
 
 .contact-form label, p {
