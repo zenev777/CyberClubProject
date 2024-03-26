@@ -63,7 +63,10 @@
                     <p class="title">This is a test title
                     </p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <button class="button">Научи повече</button>
+                    <!-- <button class="button">Научи повече</button> -->
+                    <a class="btn-learn-more" href="moreinfo.php">
+                    Научи повече
+                    </a>
                 </div>
             </div>
         </article>
@@ -75,7 +78,10 @@
                     <p class="title">This is a test title
                     </p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <button class="button">Научи повече</button>
+                    <!-- <button class="button">Научи повече</button> -->
+                    <a class="btn-learn-more" href="moreinfo.php">
+                    Научи повече
+                    </a>
                 </div>
             </div>
         </article>
@@ -87,7 +93,10 @@
                     <p class="title">This is a test title
                     </p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <button class="button">Научи повече</button>
+                    <!-- <button class="button">Научи повече</button> -->
+                    <a class="btn-learn-more" href="moreinfo.php">
+                    Научи повече
+                    </a>
                 </div>
             </div>
         </article>
