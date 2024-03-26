@@ -205,6 +205,11 @@ ul {
 
 /* Contact page -----------------> */
 
+
+.contact-section{
+    display: flex;
+    gap: 2em
+}
 .contact-page {
     background-color: #fff;
     background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgb(65, 41, 110) 52%, rgb(9, 3, 56) 100%);
@@ -225,12 +230,12 @@ ul {
     border: #8707ff 2px solid;
 }
 
-.contact-form-article {
+/* .contact-form-article {
     text-align: center;
     display: flex;
     justify-content: center;
     margin: 3em;
-}
+} */
 
 .contact-form h2 {
     color: #e7d5fc;
