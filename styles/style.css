@@ -304,6 +304,13 @@ textarea {
     text-align: center;
 }
 
+#SubmitBtn:hover{
+    color: #e7d5fc;
+    background: rgb(16, 2, 31);
+    border: 2px solid #8707ff;
+    box-shadow: 2px 2px 15px #8707ff inset;
+}
+
 .contact-inputs:active {
     box-shadow: 2px 2px 15px #8707ff inset;
 }
