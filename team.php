@@ -35,8 +35,10 @@
                     </a>
                 </div>
                 <div class="user">
+                <div class="nav-btn-join">
+                        <a href="#">ПРИСЪЕДИНИ СЕ</a>
+                    </div> 
                     <ul class="user-icon">
-                    
                         <li><a href="#" class="icn"><i class="fa-solid fa-user icon-img"></i></a>
                             <ul>
                                 <li><a href="#">Създай</a></li>
