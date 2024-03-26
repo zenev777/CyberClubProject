@@ -7,7 +7,7 @@
 body {
     padding: 0px;
     margin: 0px;
-    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgb(65, 41, 110) 52%, rgb(9, 3, 56) 100%);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, #41296e 52%, #090338 100%);
 }
 
 /* header background coloring*/
@@ -54,11 +54,6 @@ ul {
     padding: 0;
 }
 
-.about-art {
-    margin: 2em;
-    text-align: center;
-    font-size: 2em;
-}
 
 /* ---- User Icon ---- */
 .user {
@@ -152,18 +147,91 @@ ul {
 }
 
 /* welcome title */
+.welcome-msg .img-container img{
+    max-width: 1900px;
+}
+
+.welcome-msg .img-container{
+        position: relative;
+        text-align: center;
+        color: white;
+}
+
+.img-container .welcome-msg-h1{
+        position: absolute;
+        top: 40%;
+        left: 13%;
+        transform: translate(-50%,-50);
+        font-size: 4em;
+}
+
+.welcome-msg div{
+    
+    background-image:url("/images/Hacking-And-Cyber-Security-129296-pixahive.jpg");
+}
+
 .welcome-msg h1 {
     text-align: center;
     font-size: 4em;
     color: white;
     margin: 0%;
     padding: 4rem;
+    
+}
+
+.about-art {
+    padding-top: 2em;
+    padding: 2em;
+    text-align: center;
+    font-size: 2em;
+    background-color: rgb(16, 2, 31);
+    border-bottom: 2px solid #8707ff;
+    border-top: 2px solid #8707ff;
+}
+
+.about-art h3{
+    color: #e7d5fc;
+    font-size: 1.5em;
+    margin-top: 0px;
+}
+
+.about-art p{
+    font-size: 1em;
+}
+
+.activities-art{
+    margin-top: 0120px;
+    padding-bottom: 5em;
+    width: 80em;
+    text-align: center;
+    background: rgb(16, 2, 31);
+    box-shadow: -13px 9px 157px 31px rgba(135, 7, 255, 0.39);
+    -webkit-box-shadow: -13px 9px 157px 31px rgba(135, 7, 255, 0.39);
+    -moz-box-shadow: -13px 9px 157px 31px rgba(135, 7, 255, 0.39);
+    border: #8707ff 2px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .act {
     display: flex;
+    max-width: 1000px;
     margin: 2em;
     gap: 50px;
+    border-bottom: solid 2px white ;
+    box-shadow: 2px 2px 15px #8707ff inset;
+}
+
+.act-img{
+display: flex;
+justify-content: center;
+}
+
+.act-img img{
+    max-width: 1000px;
+    width: 100%;
+    height: auto;
 }
 
 .act .act-text {
@@ -172,6 +240,26 @@ ul {
     gap: 30px;
     flex-direction: column;
     align-items: center;
+    max-width: 500px;
+}
+
+.act-text ul{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    margin: 2em;
+}
+
+.act-text ul li{
+    color: #e7d5fc;
+    font-size: 1.1em;
+}
+
+.act-text-h3 h3{
+    padding: 0.5em;
+    font-size: 2em;
+    color: #e7d5fc;
 }
 
 .act .act-text a,
@@ -189,29 +277,41 @@ ul {
     text-decoration: none;
 }
 
-.act-text a:hover,
-.join-btn a:hover,
+/* .act-text a:hover,
+.join-btn a:hover, */
 .join-club-btn a:hover{
     color: #ffffff;
     background: rgb(16, 2, 31);
     border: 2px solid #8707ff;
     box-shadow: 2px 2px 15px #8707ff inset;
+    color: #e7d5fc;
 }
 
 .join-btn {
     margin: 2em;
     text-align: center;
     font-size: 1.5em;
+    
 }
 
 
 .join-club-btn {
-    margin: 2em;
+    margin-top: 120px;
+    margin-bottom: 2em;
+    width: 100%;
+    padding-top: 30px;
     font-size: 4em;
     display: flex;
     gap: 30px;
     flex-direction: column;
     align-items: center;
+    background-color: rgb(16, 2, 31);
+    border-bottom: 2px solid #8707ff;
+    border-top: 2px solid #8707ff;
+}
+
+.join-club-btn h4{
+    color: #e7d5fc;
 }
 
 .join-club-btn a {
@@ -236,10 +336,7 @@ ul {
 }
 
 
-.activities-art{
-    width: 80em;
-    text-align: center;
-}
+
 
 /* Contact page -----------------> */
 
@@ -527,6 +624,7 @@ h2 {
     text-decoration: none;
     padding: 5px 2px 2px 2px;
     margin-top: 5px;
+    color: white;
 }
 
 .footer-btns p {
@@ -540,6 +638,7 @@ p {
     padding: 5px 5px 5px 5px;
     margin-top: 5px;
     margin-bottom: 5px;
+    color: white;
 }
 
 .copy-right-sec {
@@ -650,7 +749,9 @@ button:hover {
 /* Partners */
 .partner-headline {
     text-align: center;
-    border-bottom: 5px solid white;
+    font-size: 3em;
+    padding-bottom: 2em;
+    color: white;
 }
 .partner-section {
   display: flex;
@@ -658,6 +759,7 @@ button:hover {
   align-items: center;
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* This adds a subtle shadow like in your image */
+  padding-bottom: 2.5em;
 }
 
 .partner {
