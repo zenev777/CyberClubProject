@@ -205,24 +205,20 @@ ul {
 
 /* Contact page -----------------> */
 
-
 .contact-section{
     display: flex;
-    gap: 2em
-}
-.contact-page {
-    background-color: #fff;
-    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgb(65, 41, 110) 52%, rgb(9, 3, 56) 100%);
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
-.contact-form {
-    width: 40em;
-    padding: 1.5em;
+.contact-article{
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 1em;
-    border: 5px solid;
-    border-radius: 15%;
+    margin: 4em;
+    border-radius: 1%;
     background: rgb(16, 2, 31);
     box-shadow: -13px 9px 157px 31px rgba(135, 7, 255, 0.39);
     -webkit-box-shadow: -13px 9px 157px 31px rgba(135, 7, 255, 0.39);
@@ -230,23 +226,56 @@ ul {
     border: #8707ff 2px solid;
 }
 
-/* .contact-form-article {
+.two-articles{
+    display: flex;
+    gap: 7em;
+    margin: 2em;
+}
+
+.contact-text-article{
+    padding: 0.6em;
+}
+
+.contact-page {
+    background-color: #fff;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgb(65, 41, 110) 52%, rgb(9, 3, 56) 100%);
+}
+
+.contact-form {
+    /* width: 40em; */
+    padding: 1.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.contact-form-article {
     text-align: center;
     display: flex;
-    justify-content: center;
-    margin: 3em;
-} */
+}
 
-.contact-form h2 {
+.h1-contacts {
     color: #e7d5fc;
     text-align: center;
     font-size: 3em;
     margin: 0.7em;
 }
 
-.contact-form label {
+.h1-contacts::after{
+    content: ' ';
+    border-bottom:solid white 3px; /* using border rather than underline; it's easier that way */
+    width:500px; /*however long you want the underline */
+    display:block; /* this is required for the width parameter to work */
+    padding-top: 0.4em;
+}
+
+.contact-form label, p {
     color: #e7d5fc;
     font-size: 1.2em;
+}
+
+.contact-text-article h4{
+    color: #8707ff;
 }
 
 .contact-form-article button {
@@ -299,9 +328,16 @@ textarea:active {
     color: #5c5a5a;
 }
 
+.contacts-div{
+    display: flex;
+    gap: 4em;
+}
 
+.contacts-div p,h2,h4{
+    color: #e7d5fc;
+}
 /* upload file css>>>>>>> */
-.custum-file-upload {
+/* .custum-file-upload {
     height: 5em;
     width: 10em;
     display: flex;
@@ -348,7 +384,7 @@ textarea:active {
 .upload-btn {
     align-self: center;
 
-}
+} */
 
 
 /* Team page -----------------> */
