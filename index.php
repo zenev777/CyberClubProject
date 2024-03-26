@@ -91,6 +91,22 @@
         </article>
     </section>
 
+    <!-- Partners -->
+    <div class="partner-section">
+        <div class="partner">
+            <img src="images/ISACA.png" alt="SmartIT Logo">
+        </div>
+        <div class="partner">
+            <img src="images/ISACA.png" alt="Software Group Logo">
+        </div>
+        <div class="partner">
+            <img src="images/ISACA.png" alt="SuperHosting Logo">
+        </div>
+        <div class="partner">
+            <img src="images/ISACA.png" alt="Ambitioned Logo">
+        </div>
+    </div>
+
     
     <!-- Footer -->
     <footer>
