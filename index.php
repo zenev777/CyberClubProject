@@ -36,9 +36,9 @@
                         <li>Контакти</li>
                     </a>
                 </div>
-
-                <div class="user"> 
-                    <div class="head-btn12">
+                
+                <div class="user">
+                    <div class="nav-btn-join">
                         <a href="#">ПРИСЪЕДИНИ СЕ</a>
                     </div> 
                     <ul class="user-icon">                    
