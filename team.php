@@ -58,41 +58,43 @@
         <h2>Разгледайте нашия екип</h2>
             <section class="team">
                 <div class="width-wrapper">
+                <div class="team-card">
+                    <div class="image-div"><img src="images/woman-profile.png" alt=""></div>
+                        <h3>Женя Бекярова</h3>
+                        <p>zhenya.bekyarova.22@trakia-uni.bg</p>
+                    </div>
+
                     <div class="team-card">
                         <div class="image-div"><img src="images/man-profile.png" alt=""></div>
-                        <h3>First Name And Last Name</h3>
-                        <p>More text</p>
+                        <h3>Мартин Минчев</h3>
+                        <p>martin.minchev.22@trakia-uni.bg</p>
                     </div>
 
                     <div class="team-card">
                     <div class="image-div"><img src="images/woman-profile.png" alt=""></div>
-                        <h3>First Name And Last Name</h3>
-                        <p>More text</p>
+                        <h3>Грациела Георгиева</h3>
+                        <p>gratsiela.georgieva.21@trakia-uni.bg</p>
                     </div>
 
                     <div class="team-card">
-                    <div class="image-div"><img src="images/man-profile.png" alt=""></div>
-                        <h3>First Name And Last Name</h3>
-                        <p>More text</p>
-                    </div>
-
-                    <div class="team-card">
-                    <div class="image-div"><img src="images/woman-profile.png" alt=""></div>
-                        <h3>First Name And Last Name</h3>
-                        <p>More text</p>
-                    </div>
-
-                    <div class="team-card">
-                    <div class="image-div"><img src="images/man-profile.png" alt=""></div>
-                        <h3>First Name And Last Name</h3>
-                        <p>More text</p>
+                    <div class="image-div"><img src="images/TP_6124.jpg" alt=""></div>
+                        <h3>Жан Енев</h3>
+                        <p>zhan.enev.22@trakia-uni.bg</p>
                     </div>
 
                     <div class="team-card">
                     <div class="image-div"><img src="images/woman-profile.png" alt=""></div>
-                        <h3>First Name And Last Name</h3>
-                        <p>More text</p>
+                        <h3>Елеонора Лозева</h3>
+                        <p>eleonora.lozeva.21@trakia-uni.bg</p>
                     </div>
+
+                    <div class="team-card">
+                    <div class="image-div"><img src="images/IMG_0012.jpg" alt=""></div>
+                        <h3>Красимир Колев</h3>
+                        <p>krasimir.kolev.22@trakia-uni.bg</p>
+                    </div>
+
+                    
                 </div>
             </section>
         </div>
