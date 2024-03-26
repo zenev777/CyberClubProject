@@ -72,7 +72,7 @@
                             <textarea id="message" name="message" rows="4" placeholder="Напиши съобщение..."></textarea>
                         </div>
                         <div>
-                            <button type="button" onclick="alert('Hello World!')">Изпрати</button>
+                            <button type="button" id="SubmitBtn" onclick="alert('Hello World!')">Изпрати</button>
                         </div>
                     </form>
                 </article>
