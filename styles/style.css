@@ -600,3 +600,25 @@ button:hover {
         background-position: 400% 400%;
     }
 }
+
+/* Partners */
+
+.partner-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* This adds a subtle shadow like in your image */
+}
+
+.partner {
+  padding: 10px; /* Space around each logo */
+  flex: 1; /* Ensures that each partner logo has equal width */
+  text-align: center; /* Centers the image in the div */
+}
+
+.partner img {
+  max-width: 250px; /* Makes sure the image is responsive and does not overflow its container */
+  height: 250px; /* Maintains the aspect ratio of the image */
+  vertical-align: middle; /* Aligns the image vertically */
+}
