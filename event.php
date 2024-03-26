@@ -91,9 +91,8 @@
         </article>
     </section>
 
-
-     <!-- Footer -->
-     <footer>
+    <!-- Footer -->
+    <footer>
         <div class="site-footer">
             <div class="logo-img">
                 <img src="images/TRU-vector.png" alt="">              
