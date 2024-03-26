@@ -304,7 +304,8 @@ ul {
     border-bottom:solid white 3px; /* using border rather than underline; it's easier that way */
     width:500px; /*however long you want the underline */
     display:block; /* this is required for the width parameter to work */
-    padding-top: 0.4em;
+    margin-top: 0.4em;
+    box-shadow: -13px 9px 157px 31px rgba(135, 7, 255, 0.39);
 }
 
 .contact-form label, p {
