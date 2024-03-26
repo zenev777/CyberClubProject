@@ -94,16 +94,16 @@
     <!-- Partners -->
     <div class="partner-section">
         <div class="partner">
-            <img src="images/ISACA.png" alt="SmartIT Logo">
+            <img src="images/ISACA.png">
         </div>
         <div class="partner">
-            <img src="images/ISACA.png" alt="Software Group Logo">
+            <img src="images/ISACA.png">
         </div>
         <div class="partner">
-            <img src="images/ISACA.png" alt="SuperHosting Logo">
+            <img src="images/ISACA.png">
         </div>
         <div class="partner">
-            <img src="images/ISACA.png" alt="Ambitioned Logo">
+            <img src="images/ISACA.png">
         </div>
     </div>
 
@@ -138,7 +138,7 @@
                 <h4>Телефон:</h4>
                 <p>0888832823</p>
                 <h4>Адрес:</h4>
-                <p>caasdasdsadasdaasdasdasd</p>
+                <p>Студентски град, 6000 Стара Загора</p>
             </div>
         </div>
         
