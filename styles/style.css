@@ -326,6 +326,7 @@ justify-content: center;
     margin-top: 0.8em;
     margin-bottom: 0.8em;
     text-decoration: none;
+    transition: 1s;
 }
 
 
