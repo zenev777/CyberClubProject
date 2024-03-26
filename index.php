@@ -16,9 +16,9 @@
             <ul>
                 <div class="logo-img">
 
-                <a href="">
-                    <li><img src="images/TRU-vector.png" alt=""></li>
-                </a>
+                    <a href="">
+                        <li><img src="images/TRU-vector.png" alt=""></li>
+                    </a>
 
                 </div>
 
@@ -36,12 +36,12 @@
                         <li>Контакти</li>
                     </a>
                 </div>
-                
+
                 <div class="user">
                     <div class="nav-btn-join">
                         <a href="#">ПРИСЪЕДИНИ СЕ</a>
-                    </div> 
-                    <ul class="user-icon">                    
+                    </div>
+                    <ul class="user-icon">
                         <li><a href="#" class="icn"><i class="fa-solid fa-user icon-img"></i></a>
                             <ul>
                                 <li><a href="#">Създай</a></li>
@@ -58,38 +58,50 @@
     <section class="home-page">
 
         <article class="welcome-msg">
-
-            <h1>Добре дошли в КиберКЛУБ</h1>
-
+            <div class="img-container">
+                <img src="images/090338.png" alt="">
+                <div class="welcome-msg-h1">Добре дошли в КиберКЛУБ</div>
+            </div>
         </article>
         <article class="about-art">
             <h3>За нас</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda voluptate ipsam molestias! Soluta in ipsum laboriosam quia laborum tempora, a nihil ab harum, dolor cum sint sapiente voluptate esse delectus.</p>
+            <p>КиберКлуб към Тракийския университет
+                е част от Национален КиберКлуб-България и е посветен на обучение и развитие в
+                областта на киберсигурността. С навлизането на дигилизацията в ежедневието ни с
+                неумоверно бързи темпове, човечеството има нужда да се чувства защитено в
+                бъдещето, в което технологиите не са просто инструмент, а начин на живот.</p>
         </article>
         <article class="activities-art">
+            <div class="act-text-h3">
+                <h3>Мисия и цели</h3>
+            </div>
             <div class="act">
-                <div class="act-img"><img src="images/artic.jpg" alt=""></div>
+                <div class="act-img"><img src="images/photo1.webp" alt=""></div>
                 <div class="act-text">
-                    <h3>Дейности</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, voluptatibus? Voluptatem ipsa, quae commodi aut natus earum odio. Voluptatum eveniet aliquid nam accusamus corrupti? Eum voluptate explicabo in facilis porro.</p>
-                    <a href="#">Научи още</a>
+                    <ul>
+                        <li>Да се предоставя на студентите възможността да се запознават с актуални
+                            технологии, методи и инструменти за защита на данните и сигурност в интернет
+                            пространството.</li>
+                        <li>Сътрудничество с други клубове или организации, които се занимават с
+                            киберсигурност, за споделяне на опит и ресурси.</li>
+                    </ul>
                 </div>
             </div>
             <div class="act">
                 <div class="act-text">
-                    <h3>Дейности</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, voluptatibus? Voluptatem ipsa, quae commodi aut natus earum odio. Voluptatum eveniet aliquid nam accusamus corrupti? Eum voluptate explicabo in facilis porro.</p>
-                    <a href="#">Научи още</a>
+                    <ul>
+                        <li>Участие в конференции, събития и обменни програми, които са насочени към
+                            киберсигурност, за да се разширят знанията и мрежата на клуба.</li>
+                        <li>Насърчаване на етичното поведение в областта на киберсигурността и спазване на
+                            законите и регулациите, свързани с нея.</li>
+                    </ul>
                 </div>
-                <div class="act-img"><img src="images/artic.jpg" alt=""></div>
-            </div>
-            <div class="join-btn">
-                <a href="event.php">Вижте всички събития</a>
+                <div class="act-img"><img src="images/photo2.webp" alt=""></div>
             </div>
         </article>
         <article class="join-club-btn">
-                <h4>Присъедини се в КиберКЛУБ</h4>
-                <a href="#">ПРИСЪЕДИНИ СЕ</a>
+            <h4>Присъедини се в КиберКЛУБ</h4>
+            <a href="#">ПРИСЪЕДИНИ СЕ</a>
         </article>
     </section>
 
@@ -110,12 +122,12 @@
         </div>
     </div>
 
-    
+
     <!-- Footer -->
     <footer>
         <div class="site-footer">
             <div class="logo-img">
-                <img src="images/TRU-vector.png" alt="">              
+                <img src="images/TRU-vector.png" alt="">
             </div>
 
             <div class="footer-btns">
@@ -144,10 +156,10 @@
                 <p>Студентски град, 6000 Стара Загора</p>
             </div>
         </div>
-        
-		<div class="copy-right-sec">
+
+        <div class="copy-right-sec">
             <p>&copy; 2024 All rights reserved.</p>
-		</div>
+        </div>
     </footer>
 
 </body>
