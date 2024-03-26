@@ -609,7 +609,10 @@ button:hover {
 }
 
 /* Partners */
-
+.partner-headline {
+    text-align: center;
+    border-bottom: 5px solid white;
+}
 .partner-section {
   display: flex;
   justify-content: space-around;

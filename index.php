@@ -92,6 +92,7 @@
     </section>
 
     <!-- Partners -->
+    <h2 class="partner-headline">Партнюри</h2>
     <div class="partner-section">
         <div class="partner">
             <img src="images/ISACA.png">
